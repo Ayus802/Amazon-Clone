@@ -5,7 +5,7 @@ function Home() {
   return (
     <main className='mt-14 flex'>
       <Sidebar/>
-      <div className='bg-blue-900 text-white w-3/4 ml-96'>
+      <div className='  w-3/4 ml-96'>
         Main Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio excepturi error rerum enim assumenda odit. Illo magni a incidunt aut dicta minus voluptas culpa esse iste id assumenda, ex quibusdam.
         Sunt facere, debitis velit itaque nesciunt fuga ratione illo totam esse autem sed repudiandae unde nostrum iusto, dolore aliquid! Est unde modi iure minima laboriosam tempora quidem recusandae consequatur ut!
         Est doloribus unde explicabo sed provident impedit reprehenderit corporis doloremque ullam debitis sapiente facere atque tenetur quae, autem repudiandae quas non hic dolorem aperiam quaerat veritatis numquam nobis consectetur. Corporis.

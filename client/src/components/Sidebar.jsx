@@ -2,7 +2,7 @@ import React from 'react'
 
 function Sidebar() {
   return (
-    <div className='flex h-screen w-1/4 bg-blue-800 fixed overflow-scroll'>
+    <div className='flex h-screen w-1/4 border-r border-black fixed overflow-scroll'>
       
     </div>
   )
