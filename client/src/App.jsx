@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+import Hero from './components/Hero'
 import Home from './components/Home'
 import Login from './components/Login'
 import Navbar from './components/Navbar'
@@ -11,7 +12,8 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/login' element={<Login/>} />
-        <Route path='/' element={<Home/>} />
+        <Route path='/res' element={<Home/>} />
+        <Route path='/' element={<Hero/>}/>
       </Routes>
     </div>
   )
