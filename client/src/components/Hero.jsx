@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='bg-slate-500 mt-14 h-screen w-screen'>
+    <div className='bg-slate-500 mt-14 h-screen '>
       <div className='flex mt-4 bg-white justify-center '>
         <div className='text-center m-4 cursor-pointer'>
           <img src="https://rukminim2.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100" alt=""  className='h-28'/>
@@ -34,41 +34,41 @@ function Hero() {
         <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/f39cd50df3682fa7.jpg?q=20" alt="" className='w-screen'/>
         <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/41fb3ad1f14a333f.jpg?q=20" alt="" className='w-screen'/>
       </div>
-      <div className='mt-4 p-4 bg-white w-screen'>
+      <div className='mt-4 p-4 bg-white '>
         <h1 className='text-3xl font-semibold '>Electronics</h1>
-        <div className='flex mt-4 overflow-scroll overflow-y-auto w-screen'>
-          <div className=' border border-gray-300 p-4 m-4 w-1/3 h-full'>
-            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRX1Oey7vsjScMleVb2xaDc52FXeTSRpQ3w2OxqbU8Ealy2LDBUZQAZigUw4jh-8UqhLq6k0r1JYzT4yaiSqg_NA5fBN5Qm2qO1tW2LjQsnb_wQjkW3tNy-CQ&usqp=CAE" alt="" className='h-48'/>
+        <div className='flex mt-4 max-w-full overflow-y-scroll'>
+          <div className=' border border-gray-300 p-4 m-4 min-w-60 flex flex-col justify-center items-center'>
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRX1Oey7vsjScMleVb2xaDc52FXeTSRpQ3w2OxqbU8Ealy2LDBUZQAZigUw4jh-8UqhLq6k0r1JYzT4yaiSqg_NA5fBN5Qm2qO1tW2LjQsnb_wQjkW3tNy-CQ&usqp=CAE" alt="" className='w-48 '/>
             <span>Best Headphone</span>
             <span className='font-semibold'>Grab Now</span>
           </div>
-          <div className=' border border-gray-300 p-4 m-4  w-screen h-full'>
-            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStYbBxexC-1fpq1SlLhlIaiiLNazu8oQqlyUSSr4c-yhrT3cT08kC_lP6MxU3b7rePkBY6MNywXsPdODgxmfkX3Ngc8MMl2zmdIpQRR6UdRThW5aV0aYam&usqp=CAE" alt="" className='h-48 p-2'/>
+          <div className=' border border-gray-300 p-4 m-4  min-w-60 flex flex-col justify-center items-center'>
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStYbBxexC-1fpq1SlLhlIaiiLNazu8oQqlyUSSr4c-yhrT3cT08kC_lP6MxU3b7rePkBY6MNywXsPdODgxmfkX3Ngc8MMl2zmdIpQRR6UdRThW5aV0aYam&usqp=CAE" alt="" className='w-48  p-2'/>
             <span>Noise Smartwatches</span>
             <span className='font-semibold'>From Rs. 1,099</span>
           </div>
-          <div className=' border border-gray-300 p-4 m-4  w-1/3 h-full'>
-            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStYbBxexC-1fpq1SlLhlIaiiLNazu8oQqlyUSSr4c-yhrT3cT08kC_lP6MxU3b7rePkBY6MNywXsPdODgxmfkX3Ngc8MMl2zmdIpQRR6UdRThW5aV0aYam&usqp=CAE" alt="" className='h-48 p-2'/>
+          <div className=' border border-gray-300 p-4 m-4 min-w-60  flex flex-col justify-center items-center'>
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStYbBxexC-1fpq1SlLhlIaiiLNazu8oQqlyUSSr4c-yhrT3cT08kC_lP6MxU3b7rePkBY6MNywXsPdODgxmfkX3Ngc8MMl2zmdIpQRR6UdRThW5aV0aYam&usqp=CAE" alt="" className='w-48  p-2'/>
             <span>Noise Smartwatches</span>
             <span className='font-semibold'>From Rs. 1,099</span>
           </div>
-          <div className='border border-gray-300 p-4 m-4  w-1/3 h-full'>
-            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStYbBxexC-1fpq1SlLhlIaiiLNazu8oQqlyUSSr4c-yhrT3cT08kC_lP6MxU3b7rePkBY6MNywXsPdODgxmfkX3Ngc8MMl2zmdIpQRR6UdRThW5aV0aYam&usqp=CAE" alt="" className='h-48 p-2'/>
+          <div className='border border-gray-300 p-4 m-4 min-w-60  flex flex-col justify-center items-center'>
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStYbBxexC-1fpq1SlLhlIaiiLNazu8oQqlyUSSr4c-yhrT3cT08kC_lP6MxU3b7rePkBY6MNywXsPdODgxmfkX3Ngc8MMl2zmdIpQRR6UdRThW5aV0aYam&usqp=CAE" alt="" className='w-48 p-2'/>
             <span>Noise Smartwatches</span>
             <span className='font-semibold'>From Rs. 1,099</span>
           </div>
-          <div className='  border border-gray-300 p-4 m-4  w-1/3 h-full'>
-            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStYbBxexC-1fpq1SlLhlIaiiLNazu8oQqlyUSSr4c-yhrT3cT08kC_lP6MxU3b7rePkBY6MNywXsPdODgxmfkX3Ngc8MMl2zmdIpQRR6UdRThW5aV0aYam&usqp=CAE" alt="" className='h-48 p-2'/>
+          <div className='  border border-gray-300 p-4 m-4 min-w-60  flex flex-col justify-center items-center'>
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStYbBxexC-1fpq1SlLhlIaiiLNazu8oQqlyUSSr4c-yhrT3cT08kC_lP6MxU3b7rePkBY6MNywXsPdODgxmfkX3Ngc8MMl2zmdIpQRR6UdRThW5aV0aYam&usqp=CAE" alt="" className='w-48 p-2'/>
             <span>Noise Smartwatches</span>
             <span className='font-semibold'>From Rs. 1,099</span>
           </div>
-          <div className='  border border-gray-300 p-4 m-4  w-1/3 h-full'>
-            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStYbBxexC-1fpq1SlLhlIaiiLNazu8oQqlyUSSr4c-yhrT3cT08kC_lP6MxU3b7rePkBY6MNywXsPdODgxmfkX3Ngc8MMl2zmdIpQRR6UdRThW5aV0aYam&usqp=CAE" alt="" className='h-48 p-2'/>
+          <div className='  border border-gray-300 p-4 m-4 min-w-60  flex flex-col justify-center items-center'>
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStYbBxexC-1fpq1SlLhlIaiiLNazu8oQqlyUSSr4c-yhrT3cT08kC_lP6MxU3b7rePkBY6MNywXsPdODgxmfkX3Ngc8MMl2zmdIpQRR6UdRThW5aV0aYam&usqp=CAE" alt="" className='w-48 p-2'/>
             <span>Noise Smartwatches</span>
             <span className='font-semibold'>From Rs. 1,099</span>
           </div>
-          <div className=' border border-gray-300 p-4 m-4  w-1/3 h-full'>
-            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStYbBxexC-1fpq1SlLhlIaiiLNazu8oQqlyUSSr4c-yhrT3cT08kC_lP6MxU3b7rePkBY6MNywXsPdODgxmfkX3Ngc8MMl2zmdIpQRR6UdRThW5aV0aYam&usqp=CAE" alt="" className='h-48 p-2'/>
+          <div className=' border border-gray-300 p-4 m-4  min-w-60 flex flex-col justify-center items-center'>
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStYbBxexC-1fpq1SlLhlIaiiLNazu8oQqlyUSSr4c-yhrT3cT08kC_lP6MxU3b7rePkBY6MNywXsPdODgxmfkX3Ngc8MMl2zmdIpQRR6UdRThW5aV0aYam&usqp=CAE" alt="" className='w-48 p-2'/>
             <span>Noise Smartwatches</span>
             <span className='font-semibold'>From Rs. 1,099</span>
           </div>
